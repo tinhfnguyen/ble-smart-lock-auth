@@ -82,13 +82,3 @@ luận kèm mô tả phương pháp đầy đủ (không nên chỉ trích dẫn
 100% mà không giải thích cơ chế, để tránh bị hội đồng đánh giá là
 "quá hoàn hảo/thiếu phản biện").
 
-## 7. Gợi ý mở rộng khi viết Chương 3 chính thức
-
-- Chạy lại với số lần lặp lớn hơn (ví dụ 100–1000 lần) nếu muốn số
-  liệu thống kê chặt chẽ hơn 30 lần tối thiểu đã cam kết.
-- Vẽ biểu đồ cột so sánh thời gian thực thi giữa baseline và giao
-  thức đề xuất từ file `simulation_results.csv` (dùng matplotlib hoặc
-  Excel) để minh họa trực quan cho Mục 3.5.
-- Nếu muốn mở rộng thêm kịch bản relay (đã đánh dấu là nội dung mở
-  rộng ở MT4, Mục A.3), có thể thêm một `RelayAttacker` mới trong
-  `attackers.py` theo đúng khuôn mẫu 3 lớp đã có.
