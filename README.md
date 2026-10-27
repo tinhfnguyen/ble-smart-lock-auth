@@ -63,7 +63,7 @@ chính thức, cần thay các con số này bằng dữ liệu tra được t�
   Cortex-M4F, kèm trích dẫn đầy đủ theo đúng chuẩn đã dùng ở Mục D
   (Tài liệu tham khảo).
 
-## 6. Kết quả mẫu đã kiểm chứng
+## 6. Kết quả mẫu
 
 ```
 MITM                   | baseline  | chặn  0/30 (  0.0%) | ...
@@ -74,11 +74,4 @@ Replay                 | baseline  | chặn  0/30 (  0.0%) | ...
 Replay                 | proposed  | chặn 30/30 (100.0%) | ...
 ```
 
-Baseline (Just Works) bị tấn công thành công 100% ở cả 3 kịch bản —
-đúng khớp với các lỗ hổng đã phân tích ở Chương 2 (Bảng 2.2). Giao
-thức đề xuất chặn được 100% cả 3 kịch bản trong lần chạy thử — đây là
-kết quả ban đầu trên cài đặt mô phỏng, cần được trình bày trong khóa
-luận kèm mô tả phương pháp đầy đủ (không nên chỉ trích dẫn con số
-100% mà không giải thích cơ chế, để tránh bị hội đồng đánh giá là
-"quá hoàn hảo/thiếu phản biện").
 
